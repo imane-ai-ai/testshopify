@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Preconnect to critical origins -->
+    <link rel="preconnect" href="https://axohpdpaslhjogdsccsz.supabase.co" crossorigin>
+    <link rel="dns-prefetch" href="//axohpdpaslhjogdsccsz.supabase.co">
+
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="/fonts/playfair-display-v36-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/playfair-display-v36-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Critical CSS -->
+    <style>
+      @font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/playfair-display-v36-latin-400.woff2') format('woff2')}
+      @font-face{font-family:'Playfair Display';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/playfair-display-v36-latin-700.woff2') format('woff2')}
+      *,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
+      html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent;scroll-behavior:smooth}
+      body{margin:0;line-height:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+      #root{min-height:100vh}
+      .bg-gray-100{background-color:#f3f4f6}
+      .bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}
+      .from-gray-100{--tw-gradient-from:#f3f4f6;--tw-gradient-to:rgb(243 244 246 / 0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}
+      .via-gray-50{--tw-gradient-to:rgb(249 250 251 / 0);--tw-gradient-stops:var(--tw-gradient-from),#f9fafb,var(--tw-gradient-to)}
+      .to-gray-100{--tw-gradient-to:#f3f4f6}
+      .animate-pulse{animation:pulse 2s cubic-bezier(0.4,0,0.6,1) infinite}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+    </style>
+
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <meta name="description" content="Découvrez les montres de luxe les plus prestigieuses au monde. Garde-temps suisses authentiques de Patek Philippe, Audemars Piguet et Cartier.">
+    <meta name="keywords" content="montres de luxe, montres suisses, Patek Philippe, Audemars Piguet, Cartier, garde-temps premium">
+    <meta name="theme-color" content="#D4AF37">
+    <meta name="facebook-domain-verification" content="06ya314ijgiy0u89kaku2ncgvvmt2m" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="CROWN TIME - Montres Suisses Premium">
+    <meta property="og:description" content="Découvrez les montres de luxe les plus prestigieuses au monde">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CROWN TIME - Montres Suisses Premium">
+    <meta name="twitter:description" content="Découvrez les montres de luxe les plus prestigieuses au monde">
+
+    <title>CROWN TIME - Montres Suisses Premium</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1874999623898098');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1874999623898098&ev=PageView&noscript=1"
+    /></noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
